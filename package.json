@@ -1,0 +1,22 @@
+{
+  "name": "alura-nodejs",
+  "version": "1.0.0",
+  "description": "site da casa do codigo",
+  "main": "produtos.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/douglasavilac2/alura-nodejs.git"
+  },
+  "author": "douglas avila",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/douglasavilac2/alura-nodejs/issues"
+  },
+  "homepage": "https://github.com/douglasavilac2/alura-nodejs#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
