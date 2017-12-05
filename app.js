@@ -1,10 +1,4 @@
-var express = require('express');
-
-var app = express();
-
-app.get('/produtos', function (req, res) {
-    res.send("Lista de Produtos");
-});
+var app = require('./config/express')();
 
 app.listen(3000, function () {
     console.log('servidor rodando@!');

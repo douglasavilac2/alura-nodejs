@@ -1,0 +1,28 @@
+<html>
+<head>
+
+</head>
+
+<body>
+<table>
+    <thead>
+    <tr>
+        <th>#</th>
+        <th>Nome</th>
+        <th>Criado</th>
+        <th>Modificado</th>
+    </tr>
+    </thead>
+    <% for (var i = 0, len = pessoas.length; i < len; i++) { %>
+    <tr>
+        <td><%= pessoas[i].id %></td>
+        <td><%= pessoas[i].nome %></td>
+        <td><%= pessoas[i].created %></td>
+        <td><%= pessoas[i].modified %></td>
+    </tr>
+    <% } %>
+    <tbody></tbody>
+
+</table>
+</body>
+</html>
